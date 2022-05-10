@@ -9,10 +9,8 @@
  */
 function enterClicked() {
   // input
-  const street_name = document.getElementById("street-name").value
-  const street_number = parseInt(document.getElementById("street-number").value)
-
+  const highestDigit = document.getElementById("highestDigit").value
   // output
-  document.getElementById("address").innerHTML =
-    "You live on: " + street_name + ", house " + street_number + "."
+  for (let i = 0; i < highestDigit; i++) {
+  document.getElementById("total").innerHTML = "The total is 15";
 }
