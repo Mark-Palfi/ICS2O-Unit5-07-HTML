@@ -13,4 +13,5 @@ function enterClicked() {
   // output
   for (let i = 0; i < highestDigit; i++) {
   document.getElementById("total").innerHTML = "The total is 15";
+  }
 }
